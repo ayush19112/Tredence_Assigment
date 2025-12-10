@@ -1,0 +1,13 @@
+{
+  "nodes": {
+    "extract": {"name": "extract", "fn": "extract_functions"},
+    "complexity": {"name": "complexity", "fn": "check_complexity"},
+    "issues": {"name": "issues", "fn": "detect_issues"},
+    "improve": {"name": "improve", "fn": "suggest_improvements"}
+  },
+  "edges": {
+    "extract": "complexity",
+    "complexity": {"true": "improve", "false": "issues", "default": "issues"},
+    "improve": "complexity"
+  }
+}

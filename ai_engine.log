@@ -1,0 +1,9 @@
+2025-12-11 02:14:53 INFO ai_engine Loaded example graph with id 'example'
+2025-12-11 02:20:07 INFO ai_engine Created graph 25dd34a1-7d31-47b5-8794-cdc65c6e1ad4
+2025-12-11 02:21:40 INFO ai_engine Starting run 8c5fcb77-a325-4785-94fe-404bffb38d2b for graph 25dd34a1-7d31-47b5-8794-cdc65c6e1ad4 background=True
+2025-12-11 02:21:41 INFO ai_engine run 8c5fcb77-a325-4785-94fe-404bffb38d2b - {'time': 1765399901.0196457, 'node': 'extract', 'msg': 'started'}
+2025-12-11 02:21:41 INFO ai_engine run 8c5fcb77-a325-4785-94fe-404bffb38d2b - {'time': 1765399901.0394254, 'node': 'extract', 'msg': 'finished', 'result': {'n_functions': 2}}
+2025-12-11 02:21:41 INFO ai_engine run 8c5fcb77-a325-4785-94fe-404bffb38d2b - {'time': 1765399901.0394254, 'node': 'complexity', 'msg': 'started'}
+2025-12-11 02:21:41 INFO ai_engine run 8c5fcb77-a325-4785-94fe-404bffb38d2b - {'time': 1765399901.0454977, 'node': 'complexity', 'msg': 'finished', 'result': {'avg_complexity': 1.0, 'quality_score': 9.0}}
+2025-12-11 02:21:41 INFO ai_engine run 8c5fcb77-a325-4785-94fe-404bffb38d2b - {'time': 1765399901.046666, 'node': 'issues', 'msg': 'started'}
+2025-12-11 02:21:41 INFO ai_engine run 8c5fcb77-a325-4785-94fe-404bffb38d2b - {'time': 1765399901.0535877, 'node': 'issues', 'msg': 'finished', 'result': {'issues': 0}}
